@@ -46,7 +46,7 @@ export default function IntroSection() {
           </div>
           <div className="imgContainer">
             <img
-              src={require("../assets/developer.jpg")}
+              src={require("../assets/profilephoto1.jpg")}
               alt="Paris"
               className="myImageStyle"
             ></img>
