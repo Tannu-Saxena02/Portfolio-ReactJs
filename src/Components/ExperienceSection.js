@@ -6,6 +6,7 @@ import {
   AiOutlineCode,
 } from "react-icons/ai";
 export default function ExperienceSection() {
+ 
   return (
     <div>
       <div className="experienceSection" id="ExperienceSection">
@@ -29,23 +30,23 @@ export default function ExperienceSection() {
               development, where every pixel serves a purpose. With HTML &amp;
               CSS.
             </p>
-            <button type="button" className="btn btn-primary btn-lg readBtn">
+            <a type="button"  href="/" className="btn btn-primary btn-lg readBtn">
               {" "}
               Read More
-            </button>
+            </a>
           </div>
           <div className="box">
             <AiOutlineCode className="iconStyle" />
             <h3 className="expText">Software Developer</h3>
             <p className="expDesc">
               Translating ideas into robust applications. With a keen eye for
-              detail, I engineer solutions that merge innovation with
+              detail, I implement solutions that merge innovation with
               functionality.
             </p>
-            <button type="button" className="btn btn-primary btn-lg readBtn">
+            <a type="button" className="btn btn-primary btn-lg readBtn"  href="/">
               {" "}
               Read More
-            </button>
+            </a>
           </div>
           <div className="box">
             <AiOutlineMobile className="iconStyle" />
@@ -55,10 +56,10 @@ export default function ExperienceSection() {
               aesthetics that communicate, resonate, and leave a lasting
               impression
             </p>
-            <button type="button" className="btn btn-primary btn-lg readBtn">
+            <a type="button" className="btn btn-primary btn-lg readBtn"  href="/" >
               {" "}
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>

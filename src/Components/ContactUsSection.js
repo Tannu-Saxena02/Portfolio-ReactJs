@@ -42,12 +42,12 @@ export default function ContactUsSection() {
                 Brij Vihar Colony, Muradnagar, Ghaziabad
               </div>
 
-              <div className="mailText">tannusaxena023@gmail.com</div>
+              <div className="mailText">tannusaxena02@gmail.com</div>
             </div>
           </div>
           <div className="socialMediaIcon">
             <a
-              href="https://www.instagram.com/fajuks/"
+              href="https://www.facebook.com/tannu.saxena.5473/"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,7 +58,7 @@ export default function ContactUsSection() {
               />
             </a>
             <a
-              href="https://www.instagram.com/fajuks/"
+              href="https://www.instagram.com/tannusaxena225/"
               target="_blank"
               rel="noreferrer"
             >
@@ -69,7 +69,7 @@ export default function ContactUsSection() {
               />
             </a>
             <a
-              href="https://www.instagram.com/fajuks/"
+              href="https://twitter.com/TannuSaxen8468"
               target="_blank"
               rel="noreferrer"
             >
@@ -80,7 +80,7 @@ export default function ContactUsSection() {
               />
             </a>
             <a
-              href="https://www.instagram.com/fajuks/"
+              href="https://www.linkedin.com/in/tannu-saxena/"
               target="_blank"
               rel="noreferrer"
             >

@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="container-fluid">
           {/* <Link className="navbar-brand" to="/">Navbar</a> */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

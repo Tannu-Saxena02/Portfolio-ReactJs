@@ -525,7 +525,7 @@ padding: 0;
 }
 .textContact{
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   font-weight: bold;
   @media (max-width: 767px) {
@@ -535,7 +535,7 @@ padding: 0;
 }
 .contactMeText{
   color: #05B4FF;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   font-weight: bold;
   @media (max-width: 767px) {

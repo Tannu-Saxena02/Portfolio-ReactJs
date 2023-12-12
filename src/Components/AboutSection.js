@@ -29,8 +29,8 @@ export default function AboutSection() {
             <p className="mt-4 aboutDesc">
               My name is Tannu Saxena, I'm a Mobile/Frontend Developer. Learning
               stuffs from internet to add magic to my projects. Completed my
-              B.Tech in Computer Science and polishing my Leadership and
-              Management skills.
+              B.Tech in Computer Science and polishing my Software Development and
+              Problem Solving skills.
             </p>
             <div className="row my-3">
               <div className="columns contact-details">
@@ -60,9 +60,9 @@ export default function AboutSection() {
                   <br />
                   <span>Brij Vihar Colony, muradnagar, GZB</span>
                   <br />
-                  <span>+91 70093-77116</span>
+                  <span>+917668508432</span>
                   <br />
-                  <span>tannusaxena023@gmail.com</span>
+                  <span>tannusaxena02@gmail.com</span>
                 </p>
               </div>
               <div className="columns download my-4">
