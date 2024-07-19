@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeSection.css";
-import ResumePdf from "../assets/Resume/Resume.pdf";
+import ResumePdf from "../assets/Resume/TannuResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 export default function AboutSection() {
   return (
@@ -20,7 +20,7 @@ export default function AboutSection() {
         <div className="rowAbout">
           <div className="aboutPhoto">
             <img
-              src={require("../assets/profilephoto1.jpg")}
+              src={require("../assets/profile_img.jpeg")}
               alt="Paris"
               className="aboutPhotoStyle"
             ></img>

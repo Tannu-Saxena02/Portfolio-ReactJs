@@ -25,7 +25,7 @@ export default function IntroSection() {
                 strings={[
                   "Software Developer",
                   "Mobile Developer",
-                  "Frontened Developer",
+                  "Frontend Developer",
                 ]}
                 typeSpeed={200}
                 loop
@@ -46,7 +46,7 @@ export default function IntroSection() {
           </div>
           <div className="imgContainer">
             <img
-              src={require("../assets/profilephoto1.jpg")}
+              src={require("../assets/myprofile.jpeg")}
               alt="Paris"
               className="myImageStyle"
             ></img>

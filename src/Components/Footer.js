@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <div className="footer" id="footer">
-        <div className="designedByText">made by Tannu.</div>
+        <div className="designedByText">made by Tannu Saxena.</div>
         <div className="upButton">
           <a
             className="nav-link"
@@ -14,11 +14,11 @@ export default function Footer() {
           >
             <button
               type="button"
-              className="btn btn-primary btn-lg arrowBtn"
+              className="btn btn-primary btn"
               // className="arrowBtn"
             >
               <AiOutlineArrowUp
-                size={15}
+                size={18}
                 style={{
                   justifyContent: "center",
                   alignSelf: "center",

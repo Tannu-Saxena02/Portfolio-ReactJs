@@ -7,6 +7,7 @@ import {
   AiFillTwitterCircle,
   AiFillHome,
   AiOutlineMail,
+  AiFillGithub
 } from "react-icons/ai";
 export default function ContactUsSection() {
   return (
@@ -46,23 +47,35 @@ export default function ContactUsSection() {
             </div>
           </div>
           <div className="socialMediaIcon">
-            <a
+            {/* <a
               href="https://www.facebook.com/tannu.saxena.5473/"
               target="_blank"
               rel="noreferrer"
-            >
-              <AiFillFacebook
+            > */}
+              {/* <AiFillFacebook
                 onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
                 onMouseOut={({ target }) => (target.style.color = "white")}
                 className="iconMediaStyle"
-              />
-            </a>
-            <a
+              /> */}
+            {/* </a> */}
+            {/* <a
               href="https://www.instagram.com/tannusaxena225/"
               target="_blank"
               rel="noreferrer"
             >
               <AiFillInstagram
+                onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+                className="iconMediaStyle"
+              />
+            </a> */}
+          
+            <a
+              href="https://www.linkedin.com/in/tannu-saxena/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin
                 onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
                 onMouseOut={({ target }) => (target.style.color = "white")}
                 className="iconMediaStyle"
@@ -80,16 +93,16 @@ export default function ContactUsSection() {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/tannu-saxena/"
+              href="https://github.com/Tannu-Saxena02"
               target="_blank"
               rel="noreferrer"
             >
-              <AiFillLinkedin
+              <AiFillGithub
                 onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
                 onMouseOut={({ target }) => (target.style.color = "white")}
                 className="iconMediaStyle"
               />
-            </a>
+            </a> 
           </div>
         </div>
         <form className="container inputContainer" action="">

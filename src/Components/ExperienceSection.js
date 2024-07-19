@@ -22,6 +22,19 @@ export default function ExperienceSection() {
           </span>
         </div>
         <div className="boxContainer">
+        <div className="box">
+            <AiOutlineMobile className="iconStyle" />
+            <h3 className="expText">Mobile Developer</h3>
+            <p className="expDesc">
+              Turning imagination into visually stunning realities. I craft
+              aesthetics that communicate, resonate, and leave a lasting
+              impression
+            </p>
+            <a type="button" className="btn btn-primary btn-lg readBtn"  href="/" >
+              {" "}
+              Read More
+            </a>
+          </div>
           <div className="box">
             <AiOutlineLaptop className="iconStyle" />
             <h3 className="expText">Web Developer</h3>
@@ -48,19 +61,7 @@ export default function ExperienceSection() {
               Read More
             </a>
           </div>
-          <div className="box">
-            <AiOutlineMobile className="iconStyle" />
-            <h3 className="expText">Mobile Developer</h3>
-            <p className="expDesc">
-              Turning imagination into visually stunning realities. I craft
-              aesthetics that communicate, resonate, and leave a lasting
-              impression
-            </p>
-            <a type="button" className="btn btn-primary btn-lg readBtn"  href="/" >
-              {" "}
-              Read More
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>

@@ -26,6 +26,8 @@ export default function Navbar() {
               {/* // style={{flexDirection:"row",display:"flex",justifyContent:"flex-end",alignSelf:"flex-end",alignContent:"flex-end"}}> */}
               <li className="nav-item">
                 <a
+                onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
                   className="nav-link"
                   href="/"
                   style={{ color: "white", marginInline: 40 }}
@@ -35,6 +37,8 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a
+                 onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                 onMouseOut={({ target }) => (target.style.color = "white")}
                   className="nav-link"
                   href="#ExperienceSection"
                   style={{ color: "white", marginInline: 40 }}
@@ -44,6 +48,8 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a
+                onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
                   className="nav-link"
                   href="#AboutSection"
                   style={{ color: "white", marginInline: 40 }}
@@ -53,6 +59,8 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a
+                onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
                   className="nav-link"
                   href="#EducationAndSkillSection"
                   style={{ color: "white", marginInline: 40 }}
@@ -62,6 +70,8 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a
+                onMouseOver={({ target }) => (target.style.color = "#05B4FF")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
                   className="nav-link"
                   href="#ContactUsSection"
                   style={{ color: "white", marginInline: 40 }}
